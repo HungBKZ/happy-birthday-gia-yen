@@ -107,11 +107,11 @@ export default function App() {
     }
   }
 
-  const images = [
-    { src: '/public/photos/1.png', caption: 'Remember this? Our sweet adventure 💕' },
-    { src: '/public/photos/2.png', caption: 'To more smiles and giggles 😊' },
-    { src: '/public/photos/3.png', caption: 'Us vs. The World 🌍' }
-  ]
+ const images = [
+  { src: "/src/assets/photos/1.png", caption: 'Kỷ niệm dễ thương của tụi mình 💕' },
+  { src: "/src/assets/photos/2.png", caption: 'Nụ cười này là cả bầu trời 😊' },
+  { src: "/src/assets/photos/3.png", caption: 'Mãi bên nhau em nhé 🌍' }
+]
 
   const wishes = [
     `Hi ${name}!`,
