@@ -5,6 +5,9 @@ import HeartTrail from './components/HeartTrail.jsx'
 import MusicToggle from './components/MusicToggle.jsx'
 import Gallery from './components/Gallery.jsx'
 import LoveCoupons from './components/LoveCoupons.jsx'
+import p1 from './assets/photos/1.png'
+import p2 from './assets/photos/2.png'
+import p3 from './assets/photos/3.png'
 
 const BDAY_MONTH = 8 // 0-based: 8 = September
 const BDAY_DAY = 17
@@ -107,12 +110,12 @@ export default function App() {
     }
   }
 
- const images = [
-  { src: "/src/assets/photos/1.png", caption: 'Kỷ niệm dễ thương của tụi mình 💕' },
-  { src: "/src/assets/photos/2.png", caption: 'Nụ cười này là cả bầu trời 😊' },
-  { src: "/src/assets/photos/3.png", caption: 'Mãi bên nhau em nhé 🌍' }
-]
+const images = [
+  { src: p1, caption: 'Kỷ niệm dễ thương của tụi mình 💕' },
+  { src: p2, caption: 'Nụ cười này là cả bầu trời 😊' },
+  { src: p3, caption: 'Mãi bên nhau em nhé 🌍' },
 
+]
   const wishes = [
     `Hi ${name}!`,
     'Today is all about YOU 🎂',
